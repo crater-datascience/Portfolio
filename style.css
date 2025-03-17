@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: whitesmoke;
+}
+
+.project { 
+    border: 1px solid #ddd;
+    border-left-width: 4px;
+    border-left-color: #424E76;
+    padding: 20px;
+    box-shadow: 11px 14px 33px -19px rgba(0,0,0,0.75);
+    margin-bottom: 50px;
+}
+
+.project h3 {
+    margin-top: 0;
+    color: black;
+}
+
+.project a {
+    text-decoration: none;
+    background-color: gainsboro;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+h1 {
+    text-decoration: underline;
+    text-decoration-color: #424E76;
+    color: black;
+    font-weight: 1000;
+}
+
+h2 {
+    color: black;
+}
+
+p {
+    color: grey; 
+}
+
+.title p{
+    font-weight:700;
+}
+
+.title{
+    padding:20px;
+    border:1px solid #ddd;
+    border-bottom-width: 10px;
+    border-bottom-color: #424E76;
+}
+
+.container{
+    max-width:800px;
+    margin: 0 auto;
+}

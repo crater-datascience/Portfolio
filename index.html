@@ -1,21 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-</head>
+    <link rel="stylesheet" href="style.css">  </head>
 <body>
+    <div class="title">
     <h1>Introduction</h1>
-    <p> 
-        Hi, and thank you for taking the time to look at my portfolio! These projects demonstrate some of my statistical programming proficiencies. 
+    <p>
+        Hello! Thank you for taking the time to look at my portfolio. These projects demonstrate a few of my statistical programming proficiencies.
         The reference datasets for the projects can be downloaded via the datasets link.
     </p>
+    </div>
+<div class="container">
     <h2>My Reports</h2>
-    <ul>
-        <li><a href="Baseball_Salary_Analysis.html">Baseball Salary Analysis (using R)</a></li>
-        <li><a href="Insurance_Claims_Analysis.html">Insurance Claims Analysis (using R)</a></li>
-        <li><a href="House_Price_Analysis.sas">House Price Analysis (using SAS)</a></li>
-        <li><a href="Forest_Cover_Prediction.html">Forest Cover Prediction (using Python)</a></li>
-        <li><a href="datasets.zip">Reference Datasets</a></li>
-        </ul>
+
+    <div class="project">
+        <h3>Baseball Salary Analysis (using R)</h3>
+        <p>This project uses the data set "Final-player-salary.csv" available below.
+            The project will open in a new tab with code and results visible using RMarkdown.
+        </p>
+        <a href="Baseball_Salary_Analysis.html" target="_blank">View Report</a>
+    </div>
+
+    <div class="project">
+        <h3>Insurance Claims Analysis (using R)</h3>
+        <p>The dataset for this project is "insurance.csv" available below.
+            The project will open in a new tab with code and results visible using RMarkdown.
+        </p>
+        <a href="Insurance_Claims_Analysis.html" target="_blank">View Report</a>
+    </div>
+
+    <div class="project">
+        <h3>House Price Analysis (using SAS)</h3>
+        <p>This project uses the "Bay Area House Price.csv" dataset available below.
+            The SAS can be viewed in a new tab via the "View code" link below. The PDF results of the code being run can be viewed via the "View Results"
+        </p>
+        <a href="https://github.com/crater-datascience/Portfolio/blob/main/House_Price_Analysis.sas" target="_blank">View Code</a>
+        <a href="house_price_results.pdf" target="_blank">View Results</a>
+    </div>
+
+    <div class="project">
+        <h3>Forest Cover Prediction (using Python)</h3>
+        <p>The dataset for this project is "covtype.csv" available below. The project will open in a new tab with code and results visible.</p>
+        <a href="Forest_Cover_Prediction.html" target="_blank">View Report</a>
+    </div>
+
+    <div class="project">
+        <h3>Reference Datasets</h3>
+        <a href="datasets.zip">Download Datasets</a>
+    </div>
+</div>
+
 </body>
 </html>

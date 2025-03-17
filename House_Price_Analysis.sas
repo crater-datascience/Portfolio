@@ -1,4 +1,4 @@
-/* Final Project
+/* House Price Analysis
 	By Andrew Crater
 */
 
